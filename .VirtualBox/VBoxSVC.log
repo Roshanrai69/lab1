@@ -1,0 +1,75 @@
+00:00:00.001804 main     VirtualBox COM Server 6.1.36 r152435 win.amd64 (Jul 19 2022 21:51:27) release log
+00:00:00.001806 main     Log opened 2022-08-11T12:49:17.467795500Z
+00:00:00.001806 main     Build Type: release
+00:00:00.001809 main     OS Product: Windows 11
+00:00:00.001810 main     OS Release: 10.0.22000
+00:00:00.001810 main     OS Service Pack: 
+00:00:00.015325 main     DMI Product Name: Inspiron 3501
+00:00:00.022076 main     DMI Product Version: 
+00:00:00.022081 main     Firmware type: UEFI
+00:00:00.022315 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.022328 main     Host RAM: 7914MB (7.7GB) total, 594MB available
+00:00:00.022331 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.022332 main     Process ID: 20420
+00:00:00.022332 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.093898          VirtualBox: object creation starts
+00:00:00.094027          Home directory: 'C:\Users\Dell\.VirtualBox'
+00:00:00.094117          Installed Drivers:
+00:00:00.098431            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.36.2435)
+00:00:00.098813            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.36.2435)
+00:00:00.098958            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.36.2435)
+00:00:00.099403            C:\WINDOWS\System32\drivers\VBoxNetAdp6.sys (Version: 6.1.36.2435)
+00:00:00.108667          Loading settings file "C:\Users\Dell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.111269          usbLibGetDevices: Starting USB device enumeration
+00:00:00.127187          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.127238          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.128478          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.128541          USB: Unknown USB device detected (idVendor: 0x0c45, idProduct: 0x671e)
+00:00:00.128572          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.210375          netIfIsWireless: CreateFile on '\\.\{2F54F43E-3696-498C-B582-D2DCFC9A4AF0}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.215105          HostDnsMonitor: initializing
+00:00:00.219974          HostDnsMonitor: updating information
+00:00:00.219995          HostDnsMonitor: old information
+00:00:00.219996            no server entries
+00:00:00.219998            no domain set
+00:00:00.219998            no search string entries
+00:00:00.219998          HostDnsMonitor: new information
+00:00:00.219999            server 1: 10.0.0.80
+00:00:00.219999            domain: phub.net.cable.rogers.com
+00:00:00.220000            no search string entries
+00:00:00.259018          VD: VDInit finished with VINF_SUCCESS
+00:00:00.265005          Loading settings file "C:\Users\Dell\VirtualBox VMs\Fedora\Fedora.vbox" with version "1.16-windows"
+00:00:00.265881          VirtualBox: object created
+00:00:01.106626          Saving settings file "C:\Users\Dell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.112348          Saving settings file "C:\Users\Dell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.764806          Launched VM: 69807616 pid: 1568 (0x620) frontend: GUI/Qt name: Fedora
+00:00:07.600314          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:07.783036          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:07.968019          netIfIsWireless: CreateFile on '\\.\{2F54F43E-3696-498C-B582-D2DCFC9A4AF0}' failed with rcWin=2 (0x2) - ignoring
+00:00:08.242648          netIfIsWireless: CreateFile on '\\.\{2F54F43E-3696-498C-B582-D2DCFC9A4AF0}' failed with rcWin=2 (0x2) - ignoring
+00:01:13.446337          Saving settings file "C:\Users\Dell\VirtualBox VMs\Fedora\Fedora.vbox" with version "1.16-windows"
+00:07:41.398571 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:41.404218 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:07:41.408059 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:07:42.978985 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:43.216494 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:07:43.216586 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:07:43.216827 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:15:51.687448 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:15:51.714727 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:15:51.715455 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:15:51.717376 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:18:40.286600 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:18:40.303065 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:18:40.303530 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&c2333a7&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:18:40.305326 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:29:18.330137          Saving settings file "C:\Users\Dell\VirtualBox VMs\Fedora\Fedora.vbox" with version "1.16-windows"
+00:29:19.336609          Saving settings file "C:\Users\Dell\VirtualBox VMs\Fedora\Fedora.vbox" with version "1.16-windows"
+00:29:21.561378          Saving settings file "C:\Users\Dell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:29:21.567387          Saving settings file "C:\Users\Dell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:29:27.112196 main     VirtualBox: object deletion starts
+00:29:27.112497 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Dell\VirtualBox VMs\Fedora\Fedora.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:29:27.116408 main     HostDnsMonitor: shutting down ...
+00:29:27.116482 main     HostDnsMonitor: shut down
+00:29:27.122408 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:29:27.122866 main     VirtualBox: object deleted

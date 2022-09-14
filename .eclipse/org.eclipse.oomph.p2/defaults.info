@@ -1,0 +1,4 @@
+#P2 clients store their default bundle pool locations here
+#Mon Sep 12 18:42:00 EDT 2022
+org.eclipse.oomph.setup.ui=C\:\\Users\\Dell\\.p2\\pool
+org.eclipse.oomph.setup.ui\:agent=C\:\\Users\\Dell\\.p2
